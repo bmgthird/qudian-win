@@ -44,12 +44,23 @@ Qudian is an independent theme project made with love and admiration. It is not 
 
 3. In VS Code or Cursor, run **Extensions: Install from VSIX…** and select the generated `.vsix` file.
 4. Select **Qudian** as your color theme.
-5. you still need to set typefaces, as that field is not defined on vs code color themes:
-   ```
-   "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
-   "terminal.integrated.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace"
-   ```
-   
+
+### Recommended editor settings
+
+Color themes cannot set the typeface. Add these to your user `settings.json` to match the intended look:
+
+```json
+"editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+"editor.fontSize": 13,
+"editor.fontWeight": "400",
+"editor.fontLigatures": false,
+"editor.fontVariations": true,
+"editor.lineHeight": 1.5,
+"editor.letterSpacing": 0.3,
+"terminal.integrated.fontFamily": "'Source Code Pro', Menlo, Monaco, monospace",
+"terminal.integrated.fontSize": 13
+```
+
 
 ## License
 
