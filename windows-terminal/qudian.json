@@ -1,0 +1,30 @@
+{
+    "schemes": [
+        {
+            "name": "Qudian",
+
+            "background": "#002E2C",
+            "foreground": "#9CBFB6",
+            "cursorColor": "#9CBFB6",
+            "selectionBackground": "#3E6863",
+
+            "black": "#002E2C",
+            "red": "#A2301B",
+            "green": "#008900",
+            "yellow": "#897447",
+            "blue": "#0032B7",
+            "purple": "#AF2DCC",
+            "cyan": "#0097AE",
+            "white": "#9CBFB6",
+
+            "brightBlack": "#004441",
+            "brightRed": "#E11800",
+            "brightGreen": "#00C200",
+            "brightYellow": "#C8B50F",
+            "brightBlue": "#0083FF",
+            "brightPurple": "#E42CD4",
+            "brightCyan": "#4EB5C7",
+            "brightWhite": "#FFFFFF"
+        }
+    ]
+}

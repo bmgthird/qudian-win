@@ -8,6 +8,7 @@ Qudian is an independent theme project made with love and admiration. It is not 
 ## Contents
 
 - `terminal/` — macOS Terminal profile
+- `windows-terminal/` — Windows Terminal color scheme
 - `vscode/` — VS Code / Cursor color theme extension
 
 ## Terminal (macOS)
@@ -17,6 +18,20 @@ Qudian is an independent theme project made with love and admiration. It is not 
    - **Double-click** the file to import it into Terminal, or
    - In Terminal, go to **Settings → Profiles → … → Import…** and select `Qudian.terminal`.
 3. Set **Qudian** as your default profile if you want it applied to new windows.
+
+## Windows Terminal
+
+**Option A: paste into settings.json**
+
+1. Open Windows Terminal **Settings → Open JSON file**.
+2. Copy the object inside `"schemes"` from `windows-terminal/qudian.json` into the `"schemes"` array of your `settings.json`.
+3. Under **Settings → Profiles → (your profile) → Appearance**, pick **Qudian** as the color scheme.
+4. To match the intended look, add this to a profile (or `profiles.defaults`):
+
+```json
+"colorScheme": "Qudian",
+"font": { "face": "Source Code Pro", "size": 13 }
+```
 
 ## VS Code / Cursor
 
